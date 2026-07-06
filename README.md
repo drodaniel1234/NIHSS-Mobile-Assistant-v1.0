@@ -1,4 +1,4 @@
-# NIHSS Mobile Assistant (v1.0) 🧠📱
+# NIHSS Mobile Assistant 
 
 A mobile-first clinical decision support (CDS) prototype designed to assist physicians with the National Institutes of Health Stroke Scale (NIHSS) using real-time conversational AI parsing.
 
@@ -19,3 +19,12 @@ Experience the functional frontend prototype here:
 * **Frontend:** React, TypeScript, Tailwind CSS
 * **AI Architecture:** Gemini API (leveraging structured JSON schemas for deterministic, auditable clinical extraction)
 * **Deployment:** Containerized and hosted via Google Cloud Run
+
+## 🧩 Future Roadmap: The Stroke Copilot Ecosystem
+This NIHSS Assistant is designed to function as the critical "first mile" data ingestion module within a broader, zero-duplicate-entry clinical pipeline:
+
+1. **Bedside Capture:** Nurses and frontline providers use this mobile interface to rapidly and accurately calculate the NIHSS during an acute code.
+2. **EHR Interoperability:** The tool will securely pipe this structured assessment directly into the patient's EHR, auto-populating the Telestroke Note.
+3. **Downstream Decision Support:** Once in the note, this verified score feeds directly into advanced clinical decision support modules (like the *Telestroke IVT Assistant*) for immediate thrombolytic decision-making, and later into quality extraction dashboards for hospital reporting.
+
+By streamlining data entry at the bedside, this ecosystem aims to eliminate retrospective charting burdens and ensure high-fidelity data flows across the entire multidisciplinary care team.
