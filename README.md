@@ -28,3 +28,6 @@ This NIHSS Assistant is designed to function as the critical "first mile" data i
 3. **Downstream Decision Support:** Once in the note, this verified score feeds directly into advanced clinical decision support modules (like the *Telestroke IVT Assistant*) for immediate thrombolytic decision-making, and later into quality extraction dashboards for hospital reporting.
 
 By streamlining data entry at the bedside, this ecosystem aims to eliminate retrospective charting burdens and ensure high-fidelity data flows across the entire multidisciplinary care team.
+
+## Disclaimer
+This repository contains experimental prototype code intended solely for research, demonstration, and educational purposes. It is not an FDA-cleared medical device, nor is it a substitute for independent clinical judgment. All final clinical determinations remain the strict responsibility of the treating physician. Do not use this software for direct patient care.
